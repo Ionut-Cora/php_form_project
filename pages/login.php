@@ -1,7 +1,7 @@
 
 <h1>Login</h1>
 
-<form methode="post">
+<form method="post">
     <table>
         <tr>
             <td><label for="email">Email</label></td>
@@ -22,3 +22,18 @@
         </tr>
     </table>
 </form>
+
+<?php
+    // var_dump($_POST);
+
+    if (isset($_POST['login'])) {
+        $email = $_POST['email'];
+        $pass = $_POST['pass'];
+
+        if ($email == 'test@gmail.com' && $pass == 'secret-pass') {
+            print 'Login Success';
+        } else {
+            print 'Login Error';
+        }
+    }
+?>
