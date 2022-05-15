@@ -1,0 +1,41 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#banner {
+    height: 120px;
+    background-color: bisque;
+}
+
+#menu {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+
+#content {
+    float: left;
+    width: 75%;
+    margin: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu li {
+    border: 1px solid darksalmon;
+    padding: 5px;
+    margin-bottom: 10px;
+}
